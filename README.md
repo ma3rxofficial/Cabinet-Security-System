@@ -1,2 +1,5 @@
 # Cabinet-Security-System
-Security system for doors on computercraft
+Система входа в кабинет с железными дверьми по паролю, указанным в файле.
+Пример, как должна выглядить установка:
+
+[пример](./example.png)
