@@ -1,0 +1,22 @@
+shell.run("clear")
+os.pullEvent = os.pullEventRaw
+
+password = "CHANGEME"
+
+print "Ma3rX Cabinet security"
+print ""
+print "Please, insert the password!"
+write"[Ma3rX] "
+pass = read("#")
+
+if pass == password then
+  redstone.setOutput("right",true)
+  sleep(2)
+  redstone.setOutput("right",false)
+  os.reboot()
+else
+  print "Incorrect password!"
+  print "Access blocked!"
+  sleep(2)
+  os.reboot()
+end
